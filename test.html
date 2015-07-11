@@ -1,0 +1,25 @@
+<! doctype html>
+<html>
+    <head>
+    	<script type="text/javascript" src="jquery.min.js"></script>
+    	<script type="text/javascript" src="jquery.scrollify.min.js"></script>
+        <script>
+            $(function() {
+                $.scrollify({
+                     section : "section",
+			         sectionName : "section-name",
+			         easing: "easeOutExpo",
+			         scrollSpeed: 1100,
+			         offset : 0,
+			         scrollbars: true,
+			         before:function() {},
+			         after:function() {}
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <section></section>
+        <section></section>
+    </body>
+</html>
